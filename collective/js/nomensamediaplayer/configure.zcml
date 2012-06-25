@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="collective.js.nomensamediaplayer">
+
+  <browser:resourceDirectory
+    name="collective.js.nomensamediaplayer"
+    directory="resources"
+    />
+
+  <include package=".upgrades"/>
+
+  <genericsetup:registerProfile
+      name="default"
+      title="collective.js.nomensamediaplayer"
+      directory="profiles/default"
+      description='Extension profile for collective.js.nomensamediaplayer.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>

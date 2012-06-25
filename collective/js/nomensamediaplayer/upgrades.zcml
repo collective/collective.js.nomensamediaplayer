@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/genericsetup"
+    i18n_domain="collective.nomensamediaplayer">
+
+    <upgradeStep
+        source="*"
+        destination="1001"
+        title="Upgrade (common)"
+        description=""
+        profile="collective.js.nomensamediaplayer:default"
+        handler=".upgrades.common"
+        />
+
+</configure>
