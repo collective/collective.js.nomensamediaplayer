@@ -1,7 +1,7 @@
 Introduction
 ============
 
-This addon register nomensa_'s mediaplayer_ into Plone.
+This addon register nomensa_ 's mediaplayer_ into Plone.
 
 Version: #068525783d235c16c9f62473b7983eead75827d4
 
@@ -21,8 +21,11 @@ How to update this addon (for developers)
 
 * Download the current master on github:
 https://github.com/nomensa/Accessible-Media-Player
+
 * Remove core/javascript/swfobject
+
 * Put 'core' and 'custom' folders in collective/js/nomensa/resources
+
 * Update README.rst's version
 
 Credits
@@ -44,5 +47,5 @@ Authors
 
 .. |cirb| image:: http://www.cirb.irisnet.be/logo.jpg
 .. _cirb: http://cirb.irisnet.be
-.. _nomensa_: http://www.nomensa.com
+.. _nomensa: http://www.nomensa.com
 .. _mediaplayer: https://github.com/nomensa/Accessible-Media-Player
