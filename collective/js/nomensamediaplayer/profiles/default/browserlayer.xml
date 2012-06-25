@@ -1,6 +1,0 @@
-<layers>
-<!-- uncomment to activate
-    <layer name="collective.js.nomensamediaplayer"
-           interface="collective.js.nomensamediaplayer.interfaces.ILayer" />
--->
-</layers>
