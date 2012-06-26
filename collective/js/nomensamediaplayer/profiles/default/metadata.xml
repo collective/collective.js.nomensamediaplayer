@@ -2,6 +2,7 @@
 <metadata>
   <version>1000</version>
   <dependencies>
-    <dependency>profile-collective.js.swfobject:default</dependency>
+    <dependency>profile-collective.swfobject:default</dependency>
+    <dependency>profile-collective.js.jqueryui:default</dependency>
   </dependencies>
 </metadata>

@@ -25,6 +25,7 @@ setup(name='collective.js.nomensamediaplayer',
       install_requires=[
           'setuptools',
           'collective.swfobject',
+          'collective.js.jqueryui', #it use jquery.ui.slide
           # -*- Extra requirements: -*-
       ],
       entry_points="""

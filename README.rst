@@ -16,8 +16,26 @@ Vimeo and JWPlayer although it should be possible to integrate the player with
 almost any media player on the web (provided a JavaScript api for the player
 in question is available).
 
-How to update this addon (for developers)
-=========================================
+Dependencies
+============
+
+* JqueryUI 1.8
+* SWFObject 2.2
+
+Theses dependencies will be added to your plone using theses packages:
+
+* collective.js.jqueryui
+* collective.swfobject
+
+How to remove the nomensa logo (integrators)
+============================================
+
+Using jquery you can remove the logo this way (in Plone default theme)::
+
+  $('#content a.logo').remove();
+
+How to update this addon (developers)
+=====================================
 
 * Download the current master on github:
 https://github.com/nomensa/Accessible-Media-Player
