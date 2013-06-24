@@ -4,6 +4,7 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="collective.js.nomensamediaplayer">
 
+  <includeDependencies package="." />
   <browser:resourceDirectory
     name="collective.js.nomensamediaplayer"
     directory="resources"
